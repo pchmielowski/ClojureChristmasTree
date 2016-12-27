@@ -28,6 +28,6 @@
   (str (margin i h) (trunk i) (margin i h) "\n"))
 
 (defn tree [height]
-  (doseq [i (range height)] (print (stage i height))))
+  (print (reduce str (map (fn [i] (stage i height)) (range height)))))
 
 (tree 15)
