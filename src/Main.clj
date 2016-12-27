@@ -1,6 +1,5 @@
 (ns Main)
 
-(def height 7)
 (defn marginWidth [tree trunk]
   (/ (- tree trunk) 2))
 
@@ -10,17 +9,18 @@
 (defn treeWitdh [height]
   (- (* height 2) 1))
 
-(defn margin [i]
-  (reduce str (map (fn [x] " ") (range (marginWidth (treeWitdh height) (trunkWidth i))))))
-
+(defn margin [i height]
+  (reduce str (map (fn [_] " ")
+                   (range (marginWidth (treeWitdh height) (trunkWidth i))))))
 
 (defn trunk [i]
-  (reduce str (map (fn [x] "*") (range (trunkWidth i)))))
+  (reduce str (map (fn [_] "*")
+                   (range (trunkWidth i)))))
 
 (defn stage [i h]
-  (str
-    (margin i)
-    (trunk i)
-    "\n"))
+  (str (margin i h) (trunk i) (margin i h) "\n"))
 
-(doseq [i (range height)] (print (stage i height)))
+(defn tree [height]
+  (doseq [i (range height)] (print (stage i height))))
+
+(tree 15)
