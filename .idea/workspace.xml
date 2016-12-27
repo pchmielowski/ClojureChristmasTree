@@ -19,8 +19,8 @@
       <file leaf-file-name="Main.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -478,10 +478,47 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/lib/clojure-1.8.0.jar!/clojure/main.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="383" column="0" lean-forward="false" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding>
+            <marker date="1482845250768" expanded="true" signature="505:877" ph="(ns clojure.main ...)" />
+            <marker date="1482845250768" expanded="true" signature="1177:1370" ph="(defn demunge ...)" />
+            <marker date="1482845250768" expanded="true" signature="1372:1790" ph="(defn root-cause ...)" />
+            <marker date="1482845250768" expanded="true" signature="1792:2337" ph="(defn stack-element-str ...)" />
+            <marker date="1482845250768" expanded="true" signature="2432:3363" ph="(defmacro with-bindings ...)" />
+            <marker date="1482845250768" expanded="true" signature="3365:3456" ph="(defn repl-prompt ...)" />
+            <marker date="1482845250768" expanded="true" signature="3458:4015" ph="(defn skip-if-eol ...)" />
+            <marker date="1482845250768" expanded="true" signature="4017:4829" ph="(defn skip-whitespace ...)" />
+            <marker date="1482845250768" expanded="true" signature="4831:5592" ph="(defn repl-read ...)" />
+            <marker date="1482845250768" expanded="true" signature="5594:5695" ph="(defn repl-exception ...)" />
+            <marker date="1482845250768" expanded="true" signature="5697:6162" ph="(defn repl-caught ...)" />
+            <marker date="1482845250768" expanded="true" signature="6164:6448" ph="(def repl-requires ...)" />
+            <marker date="1482845250768" expanded="true" signature="6450:6688" ph="(defmacro with-read-known ...)" />
+            <marker date="1482845250768" expanded="true" signature="6690:10167" ph="(defn repl ...)" />
+            <marker date="1482845250768" expanded="true" signature="10169:10481" ph="(defn load-script ...)" />
+            <marker date="1482845250768" expanded="true" signature="10483:10547" ph="(defn- init-opt ...)" />
+            <marker date="1482845250768" expanded="true" signature="10549:10995" ph="(defn- eval-opt ...)" />
+            <marker date="1482845250768" expanded="true" signature="10997:11172" ph="(defn- init-dispatch ...)" />
+            <marker date="1482845250768" expanded="true" signature="11174:11377" ph="(defn- initialize ...)" />
+            <marker date="1482845250768" expanded="true" signature="11379:11631" ph="(defn- main-opt ...)" />
+            <marker date="1482845250768" expanded="true" signature="11633:12000" ph="(defn- repl-opt ...)" />
+            <marker date="1482845250768" expanded="true" signature="12002:12237" ph="(defn- script-opt ...)" />
+            <marker date="1482845250768" expanded="true" signature="12239:12380" ph="(defn- null-opt ...)" />
+            <marker date="1482845250768" expanded="true" signature="12382:12472" ph="(defn- help-opt ...)" />
+            <marker date="1482845250768" expanded="true" signature="12474:12768" ph="(defn- main-dispatch ...)" />
+            <marker date="1482845250768" expanded="true" signature="12770:13181" ph="(defn- legacy-repl ...)" />
+            <marker date="1482845250768" expanded="true" signature="13183:13594" ph="(defn- legacy-script ...)" />
+            <marker date="1482845250768" expanded="true" signature="13596:15152" ph="(defn main ...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

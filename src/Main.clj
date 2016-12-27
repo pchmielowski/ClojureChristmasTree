@@ -9,13 +9,20 @@
 (defn treeWitdh [height]
   (- (* height 2) 1))
 
+(defn uniformString [char]
+  (fn [size] (reduce str (map (fn [_] char) (range size)))))
+
 (defn margin [i height]
-  (reduce str (map (fn [_] " ")
-                   (range (marginWidth (treeWitdh height) (trunkWidth i))))))
+  (apply
+    (uniformString " ")
+    [(marginWidth
+       (treeWitdh height)
+       (trunkWidth i))]))
 
 (defn trunk [i]
-  (reduce str (map (fn [_] "*")
-                   (range (trunkWidth i)))))
+  (apply
+    (uniformString "*")
+    [(trunkWidth i)]))
 
 (defn stage [i h]
   (str (margin i h) (trunk i) (margin i h) "\n"))
